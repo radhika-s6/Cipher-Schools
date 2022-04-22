@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Management System(health bloom)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body
+        {
+            background-color: white;
+            color: dodgerblue;
+        }
+        
+        .container-fluid
+        {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+
+        .left-centered 
+        {
+            position: absolute;
+            bottom: 250px;
+            left: 150px;
+            
+        }
+        .text-box
+        {
+            
+            text-align: center;
+            color: white;
+        }
+        .form-box
+        {
+            position: relative;
+            text-align: center;
+            color: white;
+            background-color: steelblue;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 30px;
+            padding-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Department</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">
+                        <button type="button" class="btn btn-info btn-sm">Appointment</button>
+                        </a></li>   
+                </ul>
+                        <p class="lead text-left">
+                        <span class="glyphicon glyphicon-plus-sign"></span>HealthBloom
+                        </p>
+            </div>
+            </div>
+        </nav>
+        <br><br>
+        <hr>
+        
+        <div class="row">
+            <div class="col-xs-2">
+                <span class="glyphicon glyphicon-earphone"></span>+9001234567
+            </div>
+            <div class="col-xs-2">
+            <span class="glyphicon glyphicon-send"></span>Email : health.bloom@gmail.com
+            </div>
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4"></div> 
+            
+        </div>
+        <br>
+        
+        
+        <img src="doctor.jpg" class="img-responsive" alt="Doctor" width="1500" height="600">
+        <div class="left-centered">
+            <h1><strong>We are here <br>
+                for your Care</strong></h1>
+            <p class="text-justify"><small>Everyday we bring Hope and Smile to the patients we serve.</small></p>
+            <br><br><br>
+            
+            <button type="button" class="btn btn-warning btn-lg">Make an appointment</button> 
+            <br><br><br><br>
+            <form action="action_page.php">
+                <input type="text" placeholder="Help me find..." name="search">
+                    <button type="submit">
+                <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+        </div>      
+        <br><br><br>
+        </div>
+    
+        
+    <div class="container">
+        
+        <div class="text-box">
+            
+                <div class="row">
+                    <center>
+                    <div class="col-sm-3" style="background-color: dodgerblue">
+                        <br>
+                        <img src="doc1.png" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Medical Pricing
+                            <span class="glyphicon glyphicon-usd"></span>
+                        </p>
+                        Check here for medical expenditures.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: lightskyblue">
+                        <br>
+                        <img src="doc2.png" class="img-circle" alt="quality and safety" width="100" height="100">
+                        <br>
+                        <p class="lead">Quality & Safety
+                            <span class="glyphicon glyphicon-ok-circle"></span>
+                        </p>
+                        Your safety is in our hands.Check for the quality we are providing.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: dodgerblue">
+                        <br>
+                        <img src="doc3.jfif" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Immediate Services
+                            <span class="glyphicon glyphicon-globe"></span>
+                        </p>
+                        You can avail quick services anytime.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: lightskyblue">
+                        <br>
+                        <img src="doc4.jfif" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Emergency Help
+                        <span class="glyphicon glyphicon-plus"></span>
+                        </p>
+                        In case of any emergency, feel free to visit or consult.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br>
+                        </div>
+                    </center>
+                </div>
+            <br>
+            <div class="row">
+                    <center>
+                    <div class="col-sm-3" style="background-color: dodgerblue">
+                        <br>
+                        <img src="doc5.jpg" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Doctors
+                            <span class="glyphicon glyphicon-user"></span>
+                        </p>
+                        Contact the specialists for appropriate treatment.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: lightskyblue">
+                        <br>
+                        <img src="doc6.jpg" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Tests
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                        </p>
+                        Here check for the laboratories and medical tests.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: dodgerblue">
+                        <br>
+                        <img src="doc7.jpg" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Consult
+                            <span class="glyphicon glyphicon-check"></span>
+                        </p>
+                        You can visit and fulfill your consultation requirements.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br>
+                        </div>
+                        
+                    <div class="col-sm-3" style="background-color: lightskyblue">
+                        <br>
+                        <img src="doc8.jpg" class="img-circle" alt="medical expenditures" width="100" height="100">
+                        <br>
+                        <p class="lead">Check Timings
+                            <span class="glyphicon glyphicon-time"></span>
+                        </p>
+                        24 hours availability.
+                        <br><br>
+                        <button type="button" class="btn btn-default">More Details
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <br><br><br>
+                        </div>
+                    </center>
+                </div>
+        </div>
+        </div>
+        <br><br><br><br>
+        <hr>
+    
+        <!--table-->
+    <div class="container">
+        <table class="table table-striped table-responsive">
+            <tr>
+                <thead><h4><u><strong>DEPARTMENTS</strong></u></h4></thead>
+            </tr>
+            <tr class="danger">
+                <th>Psychiatry</th>
+                <th>Internal Medicine</th>
+                <th>Surgery</th>
+            </tr>
+            <tr>
+                <td><button type="button" class="btn btn-link">General Psychiatry</button></td>
+                <td><button type="button" class="btn btn-link">General Medicine</button></td>
+                <td><button type="button" class="btn btn-link">General Surgery</button></td>
+            </tr>
+            <tr class="warning">
+                <td><button type="button" class="btn btn-link">Geriatric Psychiatry</button></td>
+                <td><button type="button" class="btn btn-link">Neurology</button></td>
+                <td><button type="button" class="btn btn-link">Urology</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="btn btn-link">Psychosomatics</button></td>
+                <td><button type="button" class="btn btn-link">Gastrointestinal</button></td>
+                <td><button type="button" class="btn btn-link">Orthopaedics</button></td>
+            </tr>
+            <tr class="warning">
+                <td><button type="button" class="btn btn-link">Rehabiliation Psychiatry</button></td>
+                <td><button type="button" class="btn btn-link">Respiratory Medicine</button></td>
+                <td><button type="button" class="btn btn-link">ENT</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="btn btn-link">Community Psychiatry</button></td>
+                <td><button type="button" class="btn btn-link">Nephrology</button></td>
+                <td><button type="button" class="btn btn-link">Obstetrics and Gynaecology</button></td>
+            </tr>
+            <tr class="warning">
+                <td></td>
+                <td><button type="button" class="btn btn-link">Paediatrics</button></td>
+                <td><button type="button" class="btn btn-link">Ophthalmology</button></td>
+            </tr>
+        </table>
+        <br><br><br><br>
+    
+        
+        <div class="form-box">
+        <br>
+            <p class="text-center"><small>BOOK AN APPOINTMENT</small></p>
+            <h2>Free Consultation</h2>
+            <br><br>
+        <form action="action_page.php" class="form-inline">
+            
+            <div class="input-group">
+                <input type="text" class="form-control" name="user_name" placeholder="Your Name">
+                </div>
+                <input type="tel" class="form-control" name="contact" placeholder="Phone Number">
+                <br><br><br>
+                <div class="input-group">
+                    <input type="text" class="form-control" name="services" placeholder="Select Services">
+                <div class="input-group-addon">
+                    <a href="#"><span class="glyphicon glyphicon-chevron-down"></span></a>
+                    </div>
+                    </div>
+                <br><br><br>
+                <div class="input-group">
+                    <input type="text" class="form-control" name="date" placeholder="Date">
+                <div class="input-group-addon">
+                    <a href="#"><span class="glyphicon glyphicon-calendar"></span></a>
+                    </div>
+                    </div>
+                
+                <div class="input-group">
+                    <input type="text" class="form-control" name="time" placeholder="Time">
+                <div class="input-group-addon">
+                    <a href="#"><span class="glyphicon glyphicon-time"></span></a>
+                    </div>
+                    </div>
+            <br><br><br>
+            
+            <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+        </form>
+    </div>
+        <br><br><br><br>
+        
+        <hr>
+        <p class="text-center lead">Emergency Contact : +9876543210</p>
+        <footer><center>HealthBloom © 2022. All Rights Reserved</center></footer>
+        <br><br>
+        
+    </div>
+    </body>
+</html>
